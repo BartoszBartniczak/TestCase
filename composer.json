@@ -1,8 +1,9 @@
 {
   "name": "bartoszbartniczak/test-case",
-  "description": "PHPUnit testcases library",
+  "description": "The library of PHPUnit TestCases",
   "minimum-stability": "stable",
-  "license": "proprietary",
+  "license": "Apache 2.0",
+  "version": "1.0.0",
   "authors": [
     {
       "name": "Bartosz Bartniczak",
