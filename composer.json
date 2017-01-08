@@ -1,0 +1,25 @@
+{
+  "name": "bartoszbartniczak/test-case",
+  "description": "PHPUnit testcases library",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Bartosz Bartniczak",
+      "email": "kontakt@bartoszbartniczak.pl"
+    }
+  ],
+  "require": {
+    "phpunit/phpunit": "5.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "BartoszBartniczak\\TestCase\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "BartoszBartniczak\\TestCase\\": "test/unit-tests/"
+    }
+  }
+}
