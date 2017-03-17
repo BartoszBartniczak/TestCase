@@ -6,8 +6,9 @@
 
 namespace BartoszBartniczak\TestCase;
 
+use PHPUnit\Framework\TestCase as PHPUnitTestCase;
 
-abstract class TestCase extends \PHPUnit_Framework_TestCase
+abstract class TestCase extends PHPUnitTestCase
 {
 
 }

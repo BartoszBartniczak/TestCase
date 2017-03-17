@@ -6,8 +6,7 @@
 
 namespace BartoszBartniczak\TestCase;
 
-
-class ExceptionTestCaseTest extends \PHPUnit_Framework_TestCase
+class ExceptionTestCaseTest extends TestCase
 {
 
     /**

@@ -6,8 +6,9 @@
 
 namespace BartoszBartniczak\TestCase;
 
+use PHPUnit\Framework\TestCase as PHPUnitTestCase;
 
-class TestCaseTest extends \PHPUnit_Framework_TestCase
+class TestCaseTest extends PHPUnitTestCase
 {
 
     public function testConstructor(){
@@ -15,7 +16,7 @@ class TestCaseTest extends \PHPUnit_Framework_TestCase
         $testCase = $this->getMockBuilder(TestCase::class)
             ->getMockForAbstractClass();
         /* @var $testCase TestCase */
-        $this->assertInstanceOf(\PHPUnit_Framework_TestCase::class, $testCase);
+        $this->assertInstanceOf(PHPUnitTestCase::class, $testCase);
     }
 
 }
